@@ -1,7 +1,7 @@
 name: Label New Issues as "To Do"
 on:
   issues:
-  types: [opened]
+    types: [opened]
 permissions:
   issues: write # Explicitly grants write permission to manage issues
 jobs:
